@@ -134,7 +134,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.125em;
-    margin: 20px 0;
+    margin: 10px 0;
   }
    
   p {
@@ -439,7 +439,7 @@
   }
   
   .faq-content {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   
   .faq-content h4 {
@@ -827,15 +827,22 @@
     /* ==========================================================================
     FAQ Page
     ========================================================================== */
+    .faq .content-wrapper {
+      justify-content: space-between;
+    }
+  
+    .faq-content {
+      flex-basis: 45%;
+    }
+  
     .faq h2 {
       width: 100%;
-      font-size: 3em;
     }
-      
+  
     .faq h4,
     .faq p {
-        font-size: 1.125em;
-        line-height: 1;
+        font-size: .875em;
+        line-height: 1.125;
     }
   }
   
